@@ -2,6 +2,12 @@
 
 Demo xử lý ảnh cho **Bone Fracture Multi-Region X-ray**. Giao diện chính dùng Streamlit, nền tối dịu và xanh chủ đạo. Giữ nguyên thuật toán web trong `processor.py`; không dùng mô hình phân loại và không phục vụ chẩn đoán.
 
+## Demo online
+
+[Mở GR5 X-ray trên Streamlit](https://gr5-xray-huit.streamlit.app/).
+
+Kho mã demo được chủ dự án cho phép công khai tại [GitHub](https://github.com/nguyenkhaihiep1999-beep/gr5-xray-streamlit). Chỉ mã phục vụ web và ảnh mẫu đầu gối được đưa lên; notebook, dataset, báo cáo và hai ảnh mẫu có thông tin bệnh nhân vẫn ở máy cục bộ, không nằm trong lịch sử Git của kho này.
+
 ## Chạy Streamlit
 
 Python 3.11. Tạo môi trường riêng để không thay đổi môi trường chạy notebook:
@@ -57,7 +63,7 @@ Kho GitHub này phục vụ triển khai demo: không bao gồm các script báo
 
 ## Triển khai Streamlit Community Cloud
 
-1. Đẩy mã nguồn, `.streamlit/config.toml`, `requirements.txt` và chỉ ảnh mẫu đã kiểm tra thông tin cá nhân lên GitHub; giữ kho riêng tư mặc định.
+1. Đẩy mã nguồn, `.streamlit/config.toml`, `requirements.txt` và chỉ ảnh mẫu đã kiểm tra thông tin cá nhân lên GitHub. Kho demo hiện được công khai theo sự đồng ý của chủ dự án; không thêm notebook, dataset, báo cáo hoặc ảnh có thông tin cá nhân.
 2. Trong Streamlit Community Cloud chọn repo, branch `main`, entrypoint `streamlit_app.py`.
 3. Chọn Python **3.11** trong Advanced settings rồi Deploy.
 4. Kiểm tra các ảnh mẫu được phép triển khai, tham số, ROI và tải kết quả trên URL được cấp. Không tải notebook/dataset/báo cáo lên để chạy demo.
