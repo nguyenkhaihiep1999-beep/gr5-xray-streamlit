@@ -1,0 +1,4 @@
+# Preserve the original processing module byte-for-byte on every platform.
+processor.py -text
+*.jpg binary
+*.png binary

@@ -1,0 +1,9 @@
+streamlit==1.66.0
+streamlit-image-coordinates==0.4.1
+numpy==2.4.6
+opencv-python-headless==5.0.0.93; sys_platform != 'win32'
+opencv-python==5.0.0.93; sys_platform == 'win32'
+scikit-image==0.26.0
+Pillow==12.3.0
+pandas==3.0.5
+altair==6.3.0

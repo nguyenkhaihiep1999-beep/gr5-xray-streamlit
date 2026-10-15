@@ -1,0 +1,24 @@
+# Local research files stay on this computer, never in the deployment repository.
+Processing/
+data/
+outputs/
+reports/
+# These originals contain burned-in patient-style identifiers. Never upload.
+static/samples/sample1_wrist.jpg
+static/samples/sample2_hand.jpg
+
+# Local environments, credentials, generated files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+.streamlit/secrets.toml
+.kaggle/
+*credentials*.json
+~$*
+.DS_Store
+.codex/
+.agents/
