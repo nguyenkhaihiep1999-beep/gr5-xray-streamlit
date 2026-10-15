@@ -38,6 +38,8 @@ data/                  Dữ liệu cục bộ, giữ nguyên
 
 `Processing/`, `data/`, `reports/`, `outputs/`, môi trường ảo và secrets bị loại khỏi Git bằng `.gitignore`. Chúng **vẫn còn trên máy**, chỉ không được đưa lên kho triển khai. Không đổi tên, di chuyển, chạy hay sửa notebook trong quá trình chuyển sang Streamlit.
 
+Kho GitHub này phục vụ triển khai demo: không bao gồm các script báo cáo hay bản Flask lưu riêng trên máy. Bố cục ở trên mô tả toàn bộ dự án cục bộ, không phải toàn bộ nội dung kho triển khai.
+
 ## Kiểm duyệt và giới hạn cần biết
 
 - Thư mục `data/` cục bộ có 3.787 file, không phải toàn bộ dataset. Kết quả `Processing/outputs/metrics.csv` ghi 10.563 ảnh khác nhau từ lần chạy notebook trước; không được đánh đồng hai tập này.
